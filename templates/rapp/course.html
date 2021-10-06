@@ -7,38 +7,38 @@
 </head>
 <link rel='stylesheet' href="{%static "styles/style.css" %}">
 <body>
-	<center>
+		<center>
 <h1>STUDENT ENROLLMENT FORM</h1></center>
-	<table align="center" cellpadding = "10">
-		<td><h3>Enter Contact Details:</h3><td>
-	<form action="/course">
+<table align="center" cellpadding = "10">
+		<td><h3>Enter Course Details:</h3><td>
+	<form action="/result">
 		 
 		 		 <tr>
-<td> FATHER NAME:</td>
-<td><input type="text" name="fathername"/>
+<td> NAME OF COURSE:</td>
+<td><input type="text" name="namecourse"/>
 (Max 100 Characters Allowed)
 </td>
 </tr>
 		 <tr>
-<td>MOBILE NUMBER:</td>
+<td>DURATION:</td>
 <td>
-<input type="text" name="mobilenumber" maxlength="10"/>
-(10 Digits Allowed)
+<input type="text" name="duration"/>
+(Mention in Days)
 </td>
 </tr>
         <tr>
-		 <td>EMAIL ID: </td>
+		 <td>FEE: </td>
 		 <td>    
-		 <input type="email" id="email" name="email"/> 
+		 <input type="text" name="fee"/> 
           </td>
-				<tr>
+		<tr>
 <td colspan='3'align="center">
 <input type="submit" value="NEXT">
 </td>
 </tr>
 	</form>
 </table>
-
 </body>
 </html>
+
 
